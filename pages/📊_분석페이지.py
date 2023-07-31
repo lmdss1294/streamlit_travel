@@ -671,7 +671,7 @@ with row4_2:
 
     fig.add_trace(go.Bar(x=average_prices_hotel['별점'], y=average_prices_hotel['가격'],
                         marker_color=colors))
-    fig.update_layout(title="다른 등급의 숙박 평균 가격",
+    fig.update_layout(title="다른 평점의 숙박 평균 가격",
                     xaxis_title='평점',
                     yaxis_title='숙박 평균 가격')
 
